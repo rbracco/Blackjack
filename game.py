@@ -48,6 +48,11 @@ class Game:
         # Print the game state out to the user
         self.display_game()
 
+        # Checks for natural 21 
+        if self.player_hand.score() == 21
+           print('You Win!')
+           return
+        
         # Start by asking the user if they want to hit or stay
         user_input = self.ask_user('Choose:', ['hit', 'stay'])
 
