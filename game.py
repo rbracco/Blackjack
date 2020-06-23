@@ -49,7 +49,7 @@ class Game:
         self.display_game()
 
         # Checks for natural 21 
-        if self.player_hand.score() == 21
+        if self.player_hand.score() == 21:
            print('You Win!')
            return
         
